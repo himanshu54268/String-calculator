@@ -1,0 +1,6 @@
+<div style="text-align:center">
+  <h1>Welcome to {{ title }}!</h1>
+  <input [(ngModel)]="inputNumbers" placeholder="Enter numbers">
+  <button (click)="calculate()">Calculate Sum</button>
+  <p *ngIf="result !== null">Result: {{ result }}</p>
+</div>
